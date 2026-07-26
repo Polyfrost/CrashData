@@ -1885,8 +1885,8 @@
       "fix": "Cheaters get banned. (kmv5)",
       "causes": [
         {
-          "method": "contains",
-          "value": "kmv5"
+          "method": "regex",
+          "value": "\\bkmv5\\b"
         }
       ]
     },
