@@ -1960,6 +1960,16 @@
           "value": "Critical injection failure"
         }
       ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "You have a mod called \"Mod That Closes The Game When It Opens\" installed. This is why your game closes when you try to open it. Please remove the mod, and your game should open normally.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "modthatclosesthegamewhenitopens"
+        }
+      ]
     }
   ],
   "fixtypes": [
