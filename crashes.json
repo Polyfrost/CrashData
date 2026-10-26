@@ -1195,15 +1195,6 @@
       ]
     },
     {
-      "fix": "HyAddons is no longer supported by its developer as he has moved on to develop [X Y Z]. Additionally, during HyAddons' own lifetime, its features often overlapped with those of larger mods such as Skytils. Consider removing it from your mods folder.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "hyaddons"
-        }
-      ]
-    },
-    {
       "fixtype": 2,
       "fix": "SkyblockStats was found. Remove the mod and use `/pv` from NotEnoughUpdates instead.",
       "causes": [
