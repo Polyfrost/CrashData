@@ -314,7 +314,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Feather Client's mod is in your mods folder. It isn't supported outside the Feather launcher, remove it.",
+      "fix": "Feather Client's mod is in your mods folder. It only works in the Feather launcher. If you aren't using Feather, remove it.",
       "causes": [
         {
           "method": "contains",
