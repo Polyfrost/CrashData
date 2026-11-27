@@ -314,6 +314,16 @@
     },
     {
       "fixtype": 1,
+      "fix": "Feather Client's mod is in your mods folder. It isn't supported outside the Feather launcher, remove it.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "mixins.feather.core.json"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
       "fix": "Looks like you have a corrupted Forge installation.\nReinstall Forge <https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html>",
       "causes": [
         {
